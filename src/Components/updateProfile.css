@@ -1,0 +1,27 @@
+.container{
+    margin-top: 40px;
+    padding: 20px 20px;
+    width: 500px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.btnUpdate{
+    position: relative;
+    left: 50%;
+    transform: translateX(-150%);
+    margin-top: 30px;
+}
+@media (max-width:992px) {
+    .container{
+        width: 500px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .container{
+        width: 250px;
+        text-align: center;
+    }
+}
