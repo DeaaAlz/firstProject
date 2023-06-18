@@ -1,9 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
 import './updateProfile.css'
+import Header from '../pages/Home/header'
+import Footer from '../pages/Home/footer'
 
 function updateProfile(){
     return(
+        <>
+        <Header></Header>
         <form method='post'>
             <div className='container'>
             
@@ -42,6 +46,8 @@ function updateProfile(){
                 
         </div>
         </form>
+        <Footer></Footer>
+        </>
     )
 }
 
